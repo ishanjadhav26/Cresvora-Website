@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  /* Disable Next.js dev indicator badge in development mode */
+  devIndicators: false,
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
